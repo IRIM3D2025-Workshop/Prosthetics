@@ -97,4 +97,34 @@ footer {
     .logo {
         margin-bottom: 0.7rem;
     }
+    .logo-row {
+        flex-direction: column !important;
+        gap: 1.2rem !important;
+    }
+    .logo-img {
+        height: 90px !important;
+        max-width: 85vw !important;
+    }
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.logo-img {
+    height: 130px;
+    width: auto;
+    max-width: 280px;
+    display: block;
+    object-fit: contain;
+    transition: transform 0.18s;
+}
+
+.logo-img:hover {
+    transform: scale(1.04);
 }
