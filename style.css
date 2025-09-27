@@ -195,6 +195,12 @@ h1 {
     font-size: 1.5rem;
 }
 
+/* More compact bio text */
+.speaker-info p {
+    margin: 0.35rem 0;
+    line-height: 1.4;
+}
+
 @media (max-width: 700px) {
     .speaker-card {
         align-items: center;
