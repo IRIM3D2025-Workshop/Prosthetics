@@ -161,3 +161,45 @@ h1 {
 .logo-img:hover {
     transform: scale(1.04);
 }
+
+/* Speakers */
+.speakers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.speaker-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+.speaker-photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: 0 0 auto;
+    border: 3px solid #e6ecf6;
+}
+
+.speaker-info {
+    flex: 1 1 auto;
+}
+
+.speaker-name {
+    font-weight: 700;
+    color: #1a3365;
+    margin-bottom: 0.35rem;
+}
+
+@media (max-width: 700px) {
+    .speaker-card {
+        align-items: center;
+    }
+    .speaker-photo {
+        width: 90px;
+        height: 90px;
+    }
+}
